@@ -16,8 +16,14 @@ V_reset = -70 [mV]
 
 ## LIFモデルに対し一定の入力（I）を与えたときの発火率をfとしたとき，入出力曲線f=F(i)を求める
 1. LIFモデルの入出力曲線をシミュレーションによって求める（lif1.py） 
+発火に必要な入力はV_th - EL = -54 + 75 = 21 以上の値が必要になる．  
+(a) I=21の時の入出力曲線  
 <div>
 	<img src='/graph/lif1/Figure_1.png'width="420px">
+</div>
+(b) I=22の時の入出力曲線  
+<div>
+	<img src='/graph/lif1/Figure_2.png'width="420px">
 </div>
 2. LIFモデルの入出力曲線を解析的によって求める（lif2.py） 
 <div>
