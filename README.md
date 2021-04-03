@@ -26,12 +26,12 @@ LIFモデルが発火するのは与えるIの値がI>V_th-E_Lを満たすとき
 (a) I=21の時の入出力曲線  
 発火の閾値V_th = -54 [mV]を超えず発火していないことが分かる．  
 <div>
-	<img src='/graph/lif1/Figure_1.png'width="420px">
+	<img src='/graph/Figure_1.png'width="420px">
 </div>
 (b) I=22の時の入出力曲線  
 発火の閾値V_th = -54 [mV]を超えて発火していることが分かる．  
 <div>
-	<img src='/graph/lif1/Figure_2.png'width="420px">
+	<img src='/graph/Figure_2.png'width="420px">
 </div>
 
 ### 2. LIFモデルの入出力曲線を解析的(手計算)によって求める  
