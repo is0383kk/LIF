@@ -1,3 +1,4 @@
+# LIFモデルのVとTの関係グラフ化するプログラム
 """
 Leaky Integrate-and-fire(LIF)モデル
 -定義式
@@ -34,6 +35,9 @@ t_list.append(t)
 v_list.append(v)
 
 I = 21 # Iの値（定数）.I > V_th - EL
+"""
+Iの値を変えるとグラフに変化が現れる
+"""
 spike_trig = v_th - el # 発火に必要なI=21より上
 for i in range(n):
     func = (-v + el + I) / tau # dv/dt = -(V -E_L - I(t)) / \tau_m = (-v -75 +I)/20
