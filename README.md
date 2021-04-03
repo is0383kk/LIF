@@ -48,7 +48,8 @@ f = F(i)の解析解はIが十分大きい際，Iの一次関数として近似�
 <div>
 	<img src='/graph/f_1.png'width="420px">
 </div>
-### 各グラフを重ねて可視化した図
+### 各グラフを重ねて可視化した図  
+F_simがシミュレーションでのグラフ．F_0が解析解でのグラフ．F_1が近似解でのグラフを表す．
 <div>
 	<img src='/graph/Figure_5.png'width="420px">
 </div>
