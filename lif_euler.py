@@ -1,3 +1,16 @@
+# LIFモデルをオイラー法によりシミュレーションによって求めるプログラム
+"""
+Leaky Integrate-and-fire(LIF)モデル
+-定義式
+\tau_m * (dV/dt) = -(V-E_l) + I(t)
+V->V_reset if V - V_th
+-パラメータ
+tau_m = 20 [ms]
+E_L = -75 [mV]
+V_th = -54 [mV]
+V_reset = -70 [mV]
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 
