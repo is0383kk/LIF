@@ -1,5 +1,6 @@
 # Leaky Integrate-and-fire (LIF) model Example  
 ## LIFモデルの定義式
+[詳しい内容はここにまとめてあります](https://qiita.com/is0383kk/items/94a3b4ec14448eb2f22a)
 
 <div>
 	<img src='/img/equation_lif.png' width="320px">
@@ -40,7 +41,7 @@ LIFモデルの定義式をオイラー法を用いて数値的に解き入出�
 </div>
 
 ### 2. LIFモデルの入出力曲線を解析的(手計算)によって求める  
-計算過程は省略．  
+計算過程は[ここ](https://qiita.com/is0383kk/items/94a3b4ec14448eb2f22a#lif%E3%83%A2%E3%83%87%E3%83%AB%E3%82%92%E8%A7%A3%E6%9E%90%E7%9A%84%E3%81%AB%E8%A7%A3%E3%81%8F)に記述．  
 結果としてf = F(I) = 1 / (20 * \log(|5-I|/|21-I|))が得られ，これをグラフ化すると以下のグラフとなる．
 <div>
 	<img src='/graph/f_0.png'width="420px">
